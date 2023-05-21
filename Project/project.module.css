@@ -1,0 +1,30 @@
+.title{
+    color: #FFEFFD;
+    font-family: 'Roboto Mono', monospace;
+    font-size: x-large;
+}
+
+.text{
+    color: #FFEFFD;
+    font-family: 'Roboto Mono', monospace;
+    width: 300px;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFEFFD;
+    font-family: 'Roboto Mono', monospace;
+    width: 300px;
+}
+
+.project{
+    display:flex;
+    margin-bottom: 1rem;
+}
+
+.photo{
+    width:350px;
+    height:auto;
+    border-radius: 29px;
+    margin-right: 15px;
+}

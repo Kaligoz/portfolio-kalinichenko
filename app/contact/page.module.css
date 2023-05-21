@@ -1,0 +1,30 @@
+.contacts{
+    color: #FFEFFD;
+    font-size: 25px;
+    position: absolute;
+    height: auto;
+    width: 80%;  
+    left: 23rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.link{
+    text-decoration: none;
+    color: #cdb5ca;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.terminalcursor {
+    animation: blinkCursor 1s infinite;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  @keyframes blinkCursor {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
