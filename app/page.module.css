@@ -17,9 +17,10 @@
 .CUBE{
   background-color: rgba(255, 255, 255, 0.11);
   position: absolute;
+  transform: translateX(-50%);
   width: 967px;
   height: 696px;
-  left: 155px;
+  left: 50%;
   top: 30px;
 }
 
@@ -28,8 +29,8 @@
   position: absolute;
   width: 20px;
   height: 696px;
-  left: 1123px;
-  top: 30px;
+  right: -20px;
+  top: 0;
   opacity: 0.9;
 }
 

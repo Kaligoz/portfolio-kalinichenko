@@ -16,8 +16,6 @@ const ScrollableDiv = () => {
       const handleScroll = () => {
         const scrollableDiv = document.getElementById('myScrollableDiv');
         if (scrollableDiv.scrollTop + scrollableDiv.clientHeight >= scrollableDiv.scrollHeight) {
-          console.log('Scrolled to the bottom!');
-          // Do something when scrolled to the bottom
         }
       };
   
