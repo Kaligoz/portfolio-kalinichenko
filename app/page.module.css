@@ -96,3 +96,13 @@
   font-size: 35px;
   color: #FFEFFD;
 }
+
+.exit{
+  position: relative;
+  font-size: large;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: none;
+}

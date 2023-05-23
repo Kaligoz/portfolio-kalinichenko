@@ -27,7 +27,9 @@ export default function RootLayout({ children }) {
           <Link href="/projects" className={styles.buttonsstyle}>projects</Link>
           <Link href="/contact" className={styles.buttonsstyle}>contact me</Link>
         </div>
-        <div className={styles.pinkline}></div>
+        <div className={styles.pinkline}>
+          <Link href="https://www.google.com/" className={styles.exit}>x</Link>
+        </div>
       </div>
     </main>
       </body>
